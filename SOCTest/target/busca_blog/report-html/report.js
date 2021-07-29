@@ -50,7 +50,7 @@ formatter.match({
   "location": "BuscaSteps.queEstouAcessandoOBlog()"
 });
 formatter.result({
-  "duration": 9495353299,
+  "duration": 9675035300,
   "status": "passed"
 });
 formatter.match({
@@ -63,21 +63,21 @@ formatter.match({
   "location": "BuscaSteps.informoAProcura(String)"
 });
 formatter.result({
-  "duration": 541778200,
+  "duration": 624409200,
   "status": "passed"
 });
 formatter.match({
   "location": "BuscaSteps.selecionoPesquisar()"
 });
 formatter.result({
-  "duration": 3068734900,
+  "duration": 4337527400,
   "status": "passed"
 });
 formatter.match({
   "location": "BuscaSteps.visualizoACategoriaPesquisada()"
 });
 formatter.result({
-  "duration": 2428146100,
+  "duration": 5103011500,
   "status": "passed"
 });
 formatter.uri("busca_credenciado.feature");
@@ -137,21 +137,21 @@ formatter.match({
   "location": "BuscaCredenciadoSteps.queEuEstouAcessandoOSiteEmSoluções()"
 });
 formatter.result({
-  "duration": 8822677700,
+  "duration": 9710242800,
   "status": "passed"
 });
 formatter.match({
   "location": "BuscaCredenciadoSteps.acessoSOCNET()"
 });
 formatter.result({
-  "duration": 3900219500,
+  "duration": 4075755800,
   "status": "passed"
 });
 formatter.match({
   "location": "BuscaCredenciadoSteps.acessoBuscarCredenciados()"
 });
 formatter.result({
-  "duration": 751796701,
+  "duration": 710227900,
   "status": "passed"
 });
 formatter.match({
@@ -164,14 +164,14 @@ formatter.match({
   "location": "BuscaCredenciadoSteps.selecionarFiltrosDeBusca(String)"
 });
 formatter.result({
-  "duration": 1613730300,
+  "duration": 26050394800,
   "status": "passed"
 });
 formatter.match({
   "location": "BuscaCredenciadoSteps.exibirOPerfilDoCredenciado()"
 });
 formatter.result({
-  "duration": 3111930200,
+  "duration": 9648600900,
   "status": "passed"
 });
 });
