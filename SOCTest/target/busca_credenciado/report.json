@@ -1,0 +1,186 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Deve realizar um teste de pesquisa",
+        "description": "",
+        "id": "busca-no-blog;deve-realizar-um-teste-de-pesquisa",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 9495353299,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou acessando o blog",
+            "match": {
+              "location": "BuscaSteps.queEstouAcessandoOBlog()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 541778200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "informo a procura \"Destaque\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Destaque",
+                  "offset": 19
+                }
+              ],
+              "location": "BuscaSteps.informoAProcura(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3068734900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "seleciono pesquisar",
+            "match": {
+              "location": "BuscaSteps.selecionoPesquisar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2428146100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "visualizo a categoria pesquisada",
+            "match": {
+              "location": "BuscaSteps.visualizoACategoriaPesquisada()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Busca no Blog",
+    "description": "Como um usuário\nEu quero acessar o blog\nPara realizar busca por categoria",
+    "id": "busca-no-blog",
+    "keyword": "Funcionalidade",
+    "uri": "busca_blog.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Buscablog"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Deve realizar uma busca em credenciados",
+        "description": "",
+        "id": "buscar-credenciado;deve-realizar-uma-busca-em-credenciados",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8822677700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu estou acessando o site em Soluções",
+            "match": {
+              "location": "BuscaCredenciadoSteps.queEuEstouAcessandoOSiteEmSoluções()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3900219500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "acesso SOCNET",
+            "match": {
+              "location": "BuscaCredenciadoSteps.acessoSOCNET()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 751796701,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "acesso Buscar credenciados",
+            "match": {
+              "location": "BuscaCredenciadoSteps.acessoBuscarCredenciados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1613730300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "selecionar filtros de Busca \"Ponta da Praia, Santos - SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ponta da Praia, Santos - SP, Brasil",
+                  "offset": 29
+                }
+              ],
+              "location": "BuscaCredenciadoSteps.selecionarFiltrosDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3111930200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "exibir o perfil do credenciado",
+            "match": {
+              "location": "BuscaCredenciadoSteps.exibirOPerfilDoCredenciado()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Buscar credenciado",
+    "description": "Como usuário\nEu quero acessar o site\nPara que eu possa exibir um perfil credenciado",
+    "id": "buscar-credenciado",
+    "keyword": "Funcionalidade",
+    "uri": "busca_credenciado.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Buscacredenciado"
+      }
+    ]
+  }
+]
